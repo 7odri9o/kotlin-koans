@@ -1,4 +1,4 @@
-fun foo(name: String, number: Int, toUpperCase: Boolean) =
+fun foo(name: String, number: Int = 1, toUpperCase: Boolean = false) =
         (if (toUpperCase) name.toUpperCase() else name) + number
 
 fun useFoo() = listOf(

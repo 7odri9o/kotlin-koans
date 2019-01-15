@@ -142,7 +142,7 @@
                       </option>
                       <option name="index" value="2" />
                       <option name="name" value="Java to Kotlin conversion" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234721" />
                       <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="taskFiles">
@@ -182,13 +182,13 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="49" />
+                                      <option name="length" value="362" />
                                       <option name="offset" value="0" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="fun toJSON(collection: Collection&lt;Int&gt;): String = TODO()" />
                                       <option name="possibleAnswer" value="fun toJSON(collection: Collection&lt;Int&gt;): String {&#10;    val sb = StringBuilder()&#10;    sb.append(&quot;[&quot;)&#10;    val iterator = collection.iterator()&#10;    while (iterator.hasNext())&#10;    {&#10;        val element = iterator.next()&#10;        sb.append(element)&#10;        if (iterator.hasNext())&#10;        {&#10;            sb.append(&quot;, &quot;)&#10;        }&#10;    }&#10;    sb.append(&quot;]&quot;)&#10;    return sb.toString()&#10;}" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
@@ -300,7 +300,7 @@
                       <option name="name" value="Default arguments" />
                       <option name="status" value="Failed" />
                       <option name="stepId" value="234723" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="taskFiles">
                         <map>
                           <entry key="src/Task.kt">
@@ -322,19 +322,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="56" />
+                                      <option name="length" value="68" />
                                       <option name="offset" value="0" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="fun foo(name: String, number: Int, toUpperCase: Boolean)" />
                                       <option name="possibleAnswer" value="fun foo(name: String, number: Int = 42, toUpperCase: Boolean = false)" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Failed" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.kt" />
                                 <option name="text" value="fun foo(name: String, number: Int, toUpperCase: Boolean) =&#10;        (if (toUpperCase) name.toUpperCase() else name) + number&#10;&#10;fun useFoo() = listOf(&#10;        foo(&quot;a&quot;),&#10;        foo(&quot;b&quot;, number = 1),&#10;        foo(&quot;c&quot;, toUpperCase = true),&#10;        foo(name = &quot;d&quot;, number = 2, toUpperCase = true)&#10;)&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -368,9 +368,9 @@
                       </option>
                       <option name="index" value="5" />
                       <option name="name" value="Lambdas" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234724" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="taskFiles">
                         <map>
                           <entry key="src/Task.kt">
@@ -392,19 +392,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
+                                      <option name="length" value="7" />
                                       <option name="offset" value="74" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="it % 2 == 0" />
                                       <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.kt" />
                                 <option name="text" value="fun containsEven(collection: Collection&lt;Int&gt;): Boolean = collection.any { TODO() }&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -2239,7 +2239,7 @@
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="customers.maxBy { it.orders.size }" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
